@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-tv_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linneajones18/TV-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linneajones18/TV-tracker/issues"
+  },
+  "homepage": "https://github.com/linneajones18/TV-tracker#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap-icons": "^1.11.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
