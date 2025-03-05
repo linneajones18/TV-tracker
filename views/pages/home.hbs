@@ -11,17 +11,20 @@
 
 {{!-- column1 --}}
         <div style="background-color: var(--green); grid-row: span 2; display: flex; align-items: center; justify-content: center; padding: 20px; border-radius: 10px;">
-          <img src="images/first_logo.png">
+          {{!-- <img src="images/first_logo.png"> --}}
         </div>
 
 {{!-- column2 --}}
         <div style="background-color: var(--pink); padding: 20px; border-radius: 70px;">
-          <h1 style="text-align:center; align-items:center; font-family:Georgia, 'Times New Roman', Times, serif; color:white;">Place catchphrase here</h1>
+          {{!-- <h1 style="text-align:center; align-items:center; font-family:Georgia, 'Times New Roman', Times, serif; color:white;">Place catchphrase here</h1> --}}
         </div>
         
 {{!-- column3 --}}
-        <div style="background-color: var(--purple); padding: 20px; border-radius: 70px;">
-          Column 2 Row 2
+        <div class="display:flex;" style="background-color: var(--purple); padding: 20px; border-radius: 70px;">
+          <div class="vertical-center;">
+            <button class="btn btn-outline-light" type="button" style="justify-content:center; align-items:center;">Button</button>
+            <button class="btn btn-outline-light" type="button">Button</button>
+          </div>
         </div>
 
     </div>
